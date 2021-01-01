@@ -1,0 +1,258 @@
+/* CSS Document */
+body
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background-color:#fff;
+	font:normal 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+html > body{
+	font-size:9.5pt;
+}
+html, body {
+	/*height: 100%;*/
+}
+form,table,p,h1,h2,h3,h4,h5,h6,ul,li,div,dl,th,tr,td{
+	margin:0;
+	padding:0;
+	font-size:100%;
+}
+p
+{
+	font:normal 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#433939;
+	line-height:18px;
+	text-align:justify;
+}
+li{
+	padding:0;
+	margin:0;
+	
+}
+ul
+{
+	list-style:none;	
+}
+h2
+{	
+	font:bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color:#4C5A46;
+	padding:0px 0 10px 0;
+}
+h3
+{
+	font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color:#4C5A46;
+	font-style:italic;
+}
+a{
+	text-decoration:none;
+	outline:none;
+	color:#fff;
+}
+img{
+	border:0;
+}
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+/* CSS Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow:hidden;
+	
+}
+.clearfix {display: inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+							/*END OF COMMON CODE*/
+#container
+{
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+	background:#fff;
+}
+#header
+{	
+	background:#fff;
+	border-top:5px solid #6FCA44;
+}
+#content
+{
+	padding: 20px 20px;
+}
+#content p
+{
+	line-height:25px;
+	text-align:justify;
+}
+.logo
+{	
+	background:url(../images/logo.jpg) no-repeat scroll 20px 0 transparent;
+	width:135px;
+	height:115px;
+	margin:20px 0;
+}
+#menu
+{
+	background:url(../images/logo_name.jpg) no-repeat scroll left 45px transparent;
+	width:865px;
+}
+#menu ul
+{
+	margin:105px 20px 0 0;
+}
+.banner
+{
+	height:377px;
+	background:url(../images/slide_bg.jpg) no-repeat scroll top center #fff;
+}
+#nobdr
+{
+	border:none !important;
+}
+#menu li a
+{
+	display:inline-block;
+	margin:0 0 0 10px;
+	font:normal 15px Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#4C5A46;
+	padding:6px 10px;
+}
+#menu li a:hover, #menu li a.current
+{
+	background:#6FCA44;
+	padding:6px 10px;
+	color:#fff;
+	 /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+	  -webkit-border-radius: 12px; 
+  	/* Firefox 1-3.6 */
+  	-moz-border-radius: 12px; 
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+ 	 /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  	border-radius: 12px;
+}
+.banner-icon
+{
+	background:url(../images/icon.jpg) no-repeat scroll center top transparent;
+	height:128px;
+}
+.sub-ban
+{	
+	background:#F6F3F3;
+	padding:0 20px;
+}
+.sub-banlft
+{
+	width:670px;
+	padding:30px 0;
+}
+.sub-banlft p
+{
+	font-style:italic;
+	padding:25px 0 0;
+}
+.sub-banrgt
+{
+	padding: 30px 35px;
+	width:200px;
+	background:#fff;
+}
+.cont-more
+{
+	display:inline-block;
+	background:#6FCA44;
+	padding:0 10px;
+	margin:20px 0;
+	height:18px;
+ /* Firefox 1-3.6 */
+  	-moz-border-radius: 12px; 
+ /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+	  -webkit-border-radius: 12px; 
+  	
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  	border-radius: 12px;
+	
+}
+
+#more
+{
+	color:#63B4D2;
+}
+.banner-cont ul
+{	
+	border-bottom:dotted 2px #DCD8D8;
+}
+.banner-cont ul li
+{	
+	width:210px;
+	text-align:center;
+	padding:0 20px;
+}
+.banner-cont ul li p
+{	
+	text-align:center;
+	min-height:55px;
+}
+.content
+{
+	padding:20px 20px 0;
+}
+.cont-des
+{
+	width:715px;
+}
+#footer
+{
+	padding:6px 20px;
+	background:#6FCA44;
+}
+#footer p
+{
+	font:normal 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+#footer p a
+{
+	color:#fff;
+}
+.list
+{	
+	margin-left:15px;
+}
+.smarterwiki-linkify
+{
+		color:#000;
+		font: bold 11px Verdana, Geneva, sans-serif;
+}
+table tr td
+{
+	width:300px;
+	padding:10px 10px 10px 10px;
+}
+@charset "utf-8";
+html { height: 100% }
+body { height: 100%;font-family: Verdana, Arial, Helvetica, sans-serif; }
+*{margin: 0; padding: 0}
+#map_canvas { height: 100% }
+/* This class is used to style the tooltip */
+.tooltip{
+	border:thin 1px #eee;
+	background-color:#FFFBF0;
+	padding:5px;
+	width:200px;
+}

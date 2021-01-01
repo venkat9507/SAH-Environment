@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "site" :  "sah-arulsenvironment",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
